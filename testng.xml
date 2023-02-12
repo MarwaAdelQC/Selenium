@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="nope commerce Regression suite">
+	<parameter name="browser" value="chrome">
+	</parameter>
+	<test name="regression test" preserve-order="true">
+		<classes>
+			<class name="Tests.ContactUsTest" />
+			<class name="Tests.ProductHoverMenuTest" />
+			<class name="Tests.SearchProductsTest" />
+			<class name="Tests.AddProductToShoppingCartTest" />
+			<class name="Tests.AddProductToWishlistTest" />
+			<class name="Tests.ChangeCurrencyTest" />
+        	<class name="Tests.SerachProductsUsingAutoSuggest" />
+
+		</classes>
+	</test>
+</suite> 
